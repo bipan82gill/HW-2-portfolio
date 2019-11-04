@@ -1,0 +1,74 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(192, 185, 185);
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(63, 57, 57);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.container{
+  
+  display : flex;
+  flex-direction: row;
+  flex-wrap: wrap;}
+.header{
+  background-color:rgb(16, 16, 104);
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin:0,0;
+  font-size: 2rem;
+  width:500px;
+}
+.links{
+    background-color: rgb(114, 111, 111);
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin:0,0;
+  overflow:hidden ;
+  font-size:1.5rem;
+  width: 500px;
+
+}
+h1{
+    margin:5px;
+    text-align: left;
+    color: black;
+    font-family:'Montserrat Subrayada', sans-serif;
+}
+h2{
+  color:blue;
+  margin:5px;
+}
+
+li a:hover {
+  background-color: rgb(26, 24, 24);
+  columns: blue;
+}
+.footer{
+  position: sticky;
+   width: 100%;
+   background-color:rgb(31, 31, 141);
+   color: white;
+   text-align: center;
+   bottom:0;
+}
+.form{
+  display: block;
+  width:700px;
+}
